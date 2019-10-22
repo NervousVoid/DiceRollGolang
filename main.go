@@ -12,7 +12,6 @@ var (
 	start = flag.Int("start", 1, "begining of dice sides amount")
 	end   = flag.Int("end", 6, "ending of dice sides amount")
 	n     = flag.Int("n", 1, "amount of rolls")
-	norepeat = flag.Bool("norepeat", false, "no repeating numbers in ouput")
 )
 
 func randInterval(l, r int) int {
