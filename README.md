@@ -1,4 +1,4 @@
-**#Console App For Rolling The Dice**
+#**Console App For Rolling The Dice**
 
 **Running**
 ```
