@@ -9,12 +9,12 @@ go run main.go -seed 42 -n 10 -start 10 -end 100
 ```
 -end int
         ending of dice sides amount (default 6)
-  -n int
+-n int
         amount of rolls (default 1)
-  -norepeat
+-norepeat
         no repeating numbers in output (default False)
-  -seed int
+-seed int
         seed for random generator. unixNano(now) be default
-  -start int
+-start int
         begining of dice sides amount (default 1)
 ```
