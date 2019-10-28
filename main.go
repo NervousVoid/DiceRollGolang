@@ -41,7 +41,7 @@ func main() {
 
 			if len < *n {
 				fmt.Println()
-				fmt.Printf("You can`t generate %d unrepeated numbers in range from %d to %d!", *n, *start, *end)
+				fmt.Printf("You can`t generate %d unrepeated numbers in range from %d to %d (%d)!", *n, *start, *end, len)
 				os.Exit(0)
 			}
 
