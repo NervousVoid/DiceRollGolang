@@ -35,6 +35,7 @@ func main() {
 		//Creating a slice with integers in range from L to R
 		//The script randomly takes one element from the slice
 		//and deletes it from the slice not to use it again
+		
 		if *norepeat {
 			len := *end - *start
 			var x []int
