@@ -2,7 +2,7 @@
 
 **Running**
 ```
-go run main.go -seed 42 -n 10 -start 10 -end 100
+go run main.go -seed 42 -n 10 -start 10 -end 100 -norepeat
 ```
 
 **--help command**
